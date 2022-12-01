@@ -1,7 +1,6 @@
 const menorVlr = 1;
 const maiorVlr = 1000;
 const numeroSecreto = gerarNumeroAleatorio();
-console.log(numeroSecreto)
 
 function gerarNumeroAleatorio() {
     return parseInt(Math.random() * maiorVlr + 1);
