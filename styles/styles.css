@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Solway:wght@300&display=swap');
+
+:root {
+    --font-family: 'Solway', serif;
+    --bg-color: #B3E8E5;
+    --primary-color: #2F8F9D;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: var(--font-family);
+}
+
+.game-over {
+    background: red;
+    color: white;
+}
+
+h1 {
+    font-size: 5em;
+}
+
+h2 {
+    font-size: 4em;
+}
+
+h3 {
+    font-size: 2.5em;
+    margin: 20px 0;
+}
+
+.mensagem {
+    font-size: 2em;
+}
+
+.box {
+    border: 2px solid var(--primary-color);
+    display: inline-block;
+    font-size: 3em;
+    padding: 10px;
+    margin: 20px 0;
+}
+
+.btn-jogar {
+    display: block;
+    margin: 10px auto;
+    border: none;
+    padding: 8px 30px;
+    border-radius: 15px;
+    background: var(--primary-color);
+    cursor: pointer;
+}
